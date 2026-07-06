@@ -1,0 +1,176 @@
+# Customer Segmentation Analysis using K-Means Clustering
+
+## Oasis Infobyte Internship
+
+**Domain:** Data Analytics
+
+**Task Number:** Task 2
+
+**Repository Name:** `OIBSIP_DataAnalytics_Task2`
+
+---
+
+# Project Overview
+
+Customer segmentation is an important technique that helps businesses understand their customers based on purchasing behavior. In this project, K-Means Clustering is applied to group customers into different segments using **RFM (Recency, Frequency, Monetary)** analysis. These customer segments can be used to create personalized marketing strategies, improve customer retention, and increase business revenue.
+
+---
+
+# Objective
+
+The objective of this project is to analyze customer purchasing behavior and divide customers into meaningful groups using the K-Means clustering algorithm. The segmented customer groups help businesses identify loyal customers, regular customers, new customers, and inactive customers.
+
+---
+
+# Tools & Technologies Used
+
+* Python
+* Google Colab
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Scikit-learn (KMeans, StandardScaler)
+
+---
+
+# Dataset
+
+**Dataset:** Online Retail Dataset
+
+The dataset contains customer transaction details, including:
+
+* Invoice Number
+* Stock Code
+* Product Description
+* Quantity
+* Invoice Date
+* Unit Price
+* Customer ID
+* Country
+
+---
+
+# Steps Performed
+
+1. Imported the required Python libraries.
+2. Loaded the Online Retail dataset.
+3. Performed initial data inspection.
+4. Handled missing values and removed duplicate records.
+5. Created the **Total Purchase Amount** column.
+6. Converted the Invoice Date into datetime format.
+7. Performed **RFM (Recency, Frequency, Monetary)** analysis.
+8. Calculated a simple Customer Lifetime Value (CLV).
+9. Standardized the selected features using **StandardScaler**.
+10. Applied the **Elbow Method** to determine the optimal number of clusters.
+11. Built the K-Means clustering model.
+12. Visualized customer clusters using scatter plots.
+13. Created customer cluster profiles.
+14. Recommended marketing strategies for each customer segment.
+15. Saved the final segmented dataset.
+
+---
+
+# 📊 Features Used for Clustering
+
+The following RFM features were selected:
+
+* **Recency** – Number of days since the customer's last purchase.
+* **Frequency** – Total number of purchases made by the customer.
+* **Monetary** – Total amount spent by the customer.
+
+---
+
+# 📈 Visualizations Included
+
+* Elbow Method Graph
+* Frequency vs Monetary Scatter Plot
+* Recency vs Monetary Scatter Plot
+* Number of Customers per Cluster (Bar Chart)
+
+---
+
+# 👥 Customer Segments
+
+### Cluster 0 – Loyal Customers
+
+* High purchase frequency
+* High spending
+* Recent purchases
+
+**Marketing Strategy:**
+
+* VIP membership
+* Loyalty rewards
+* Exclusive discounts
+
+---
+
+### Cluster 1 – Lost Customers
+
+* Low purchase frequency
+* Low spending
+* Long time since last purchase
+
+**Marketing Strategy:**
+
+* Win-back campaigns
+* Discount coupons
+* Personalized emails
+
+---
+
+### Cluster 2 – Regular Customers
+
+* Moderate spending
+* Moderate purchase frequency
+
+**Marketing Strategy:**
+
+* Product recommendations
+* Bundle offers
+* Seasonal promotions
+
+---
+
+### Cluster 3 – New Customers
+
+* Recently joined
+* Limited purchase history
+
+**Marketing Strategy:**
+
+* Welcome offers
+* First purchase discounts
+* Loyalty program enrollment
+
+---
+
+# Project Outcome
+
+The project successfully segmented customers into different groups using the K-Means clustering algorithm. The analysis provides valuable business insights that can help improve marketing campaigns, customer retention, and overall business performance through targeted customer engagement.
+
+---
+
+# Project Files
+
+```
+OIBSIP_DataAnalytics_Task2/
+│── Customer_Segmentation.ipynb
+│── Online Retail.csv
+│── Customer_Segmentation.csv
+│── README.md
+```
+
+---
+
+# Future Improvements
+* Apply additional clustering algorithms such as DBSCAN or Hierarchical Clustering.
+* Use more customer behavior features for segmentation.
+* Build an interactive dashboard using Power BI or Tableau.
+* Automate customer segmentation for real-time business analytics.
+
+---
+
+#
+**Task:** Customer Segmentation Analysis using K-Means Clustering
