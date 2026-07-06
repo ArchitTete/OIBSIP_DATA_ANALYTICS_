@@ -1,0 +1,105 @@
+# Retail Sales Data - Exploratory Data Analysis (EDA)
+
+## Oasis Infobyte Internship
+
+**Domain:** Data Analytics
+
+**Task Number:** Task 1
+
+---
+
+## 📌 Objective
+
+The objective of this project is to perform Exploratory Data Analysis (EDA) on a retail sales dataset to identify sales patterns, customer behavior, and business insights using Python. The analysis helps understand trends and supports data-driven decision-making.
+
+---
+
+## 🛠️ Tools & Technologies Used
+
+* Python
+* Google Colab
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+
+---
+
+## 📂 Dataset
+
+* Retail Sales Dataset (Downloaded from Kaggle)
+
+Dataset includes:
+
+* Transaction Date
+* Customer Age
+* Gender
+* Product Category
+* Quantity
+* Price per Unit
+* Total Amount
+
+---
+
+## 📋 Steps Performed
+
+1. Imported the required Python libraries.
+2. Loaded the retail sales dataset.
+3. Performed initial data inspection.
+4. Checked for missing values and duplicate records.
+5. Calculated descriptive statistics (mean, median, mode, and standard deviation).
+6. Converted the date column into datetime format.
+7. Performed monthly and quarterly sales analysis.
+8. Analyzed customer demographics based on age and gender.
+9. Analyzed product category sales.
+10. Created a correlation heatmap for numerical variables.
+11. Created additional visualizations to identify hidden insights.
+12. Summarized the findings and provided business recommendations.
+
+---
+
+## 📊 Visualizations Included
+
+* Monthly Sales Trend
+* Quarterly Sales Trend
+* Customer Age Distribution
+* Gender Distribution
+* Revenue by Product Category
+* Correlation Heatmap
+* Sales Contribution by Gender
+* Quantity vs Total Amount Scatter Plot
+
+---
+
+## 📈 Key Insights
+
+* Monthly and quarterly sales trends reveal seasonal variations in customer purchases.
+* Certain product categories generate higher revenue than others.
+* The majority of customers belong to a specific age group.
+* Sales performance differs slightly based on customer demographics.
+* Positive relationships exist between some numerical variables.
+
+---
+
+## ✅ Business Recommendations
+
+* Increase inventory for high-performing product categories.
+* Launch promotional campaigns during low-sales periods.
+* Focus marketing efforts on the most active customer age group.
+* Improve customer retention by offering personalized discounts.
+* Use sales trends to optimize inventory planning.
+
+---
+
+## 📁 Project Files
+
+* `Retail_Sales_EDA.ipynb` – Google Colab Notebook
+* `Retail Sales Dataset.csv` – Dataset
+* `README.md` – Project Documentation
+
+---
+
+## 🎯 Outcome
+
+Successfully performed Exploratory Data Analysis on a retail sales dataset using Python and visualized important trends and patterns through charts and statistical analysis. The project provides meaningful business insights and demonstrates practical data analysis skills.
+
