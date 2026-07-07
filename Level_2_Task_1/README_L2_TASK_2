@@ -1,0 +1,177 @@
+# House Price Prediction using Linear Regression
+
+## Project Overview
+
+This project predicts house prices using **Linear Regression**, one of the most commonly used supervised machine learning algorithms for regression tasks. The model is trained on the **Ames Housing Dataset**, which contains information about different house features such as size, quality, location, number of rooms, garage details, and more.
+
+The project demonstrates the complete machine learning workflow, including data preprocessing, exploratory data analysis (EDA), feature engineering, model training, evaluation, visualization, and model comparison.
+
+---
+
+## Objective
+
+The objective of this project is to build a machine learning model that accurately predicts the selling price of a house based on its features and evaluates the model using standard regression metrics.
+
+---
+
+## Tech Stack
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Scikit-learn
+* Jupyter Notebook
+
+---
+
+## Dataset
+
+**Dataset:** Ames Housing Dataset
+
+Files Used:
+
+* `train.csv`
+* `test.csv`
+* `data_description.txt`
+
+**Target Variable:**
+
+* `SalePrice`
+
+The dataset contains information about:
+
+* House size
+* Overall quality
+* Neighborhood
+* Garage details
+* Basement details
+* Number of rooms
+* Construction year
+* Exterior quality
+* And many other features.
+
+---
+
+## Project Workflow
+
+### 1. Data Loading
+
+* Loaded the dataset using Pandas.
+* Explored dataset shape and structure.
+
+### 2. Exploratory Data Analysis (EDA)
+
+* Checked missing values.
+* Generated descriptive statistics.
+* Visualized the distribution of house prices.
+* Examined correlations between features.
+
+### 3. Data Preprocessing
+
+* Filled missing numerical values using the median.
+* Filled missing categorical values using the mode.
+* Removed unnecessary columns (e.g., `Id`).
+* Applied One-Hot Encoding to categorical features.
+
+### 4. Feature Selection
+
+Important features influencing house prices include:
+
+* Overall Quality
+* Living Area
+* Garage Capacity
+* Basement Area
+* Year Built
+* Neighborhood
+* Full Bathrooms
+
+### 5. Model Building
+
+* Split the dataset into training (80%) and testing (20%) sets.
+* Trained a Linear Regression model.
+* Trained a Ridge Regression model for comparison.
+
+### 6. Model Evaluation
+
+The model was evaluated using:
+
+* Mean Squared Error (MSE)
+* Root Mean Squared Error (RMSE)
+* R² Score
+
+### 7. Data Visualization
+
+* Distribution Plot of Sale Price
+* Correlation Heatmap
+* Actual vs Predicted Price Scatter Plot
+* Residual Plot
+
+### 8. Coefficient Analysis
+
+Analyzed feature coefficients to determine which features have the highest positive and negative impact on house prices.
+
+---
+
+## Machine Learning Models
+
+* Linear Regression
+* Ridge Regression (Bonus)
+
+---
+
+## Evaluation Metrics
+
+* Mean Squared Error (MSE)
+* Root Mean Squared Error (RMSE)
+* R² Score
+
+---
+
+## Project Structure
+
+```
+House-Price-Prediction/
+│
+├── train.csv
+├── test.csv
+├── data_description.txt
+├── House_Price_Prediction.ipynb
+├── README.md
+└── requirements.txt
+```
+---
+
+##  Libraries Used
+
+* pandas
+* numpy
+* matplotlib
+* seaborn
+* scikit-learn
+
+---
+
+##Results
+
+* Successfully cleaned and preprocessed the dataset.
+* Built a Linear Regression model to predict house prices.
+* Evaluated model performance using MSE, RMSE, and R² Score.
+* Compared Linear Regression with Ridge Regression.
+* Visualized prediction accuracy and residual distribution.
+* Identified the most influential features affecting house prices.
+
+---
+
+## Future Improvements
+
+* Apply feature scaling where appropriate.
+* Perform feature selection to reduce dimensionality.
+* Try Lasso Regression and ElasticNet.
+* Tune hyperparameters using GridSearchCV.
+* Evaluate advanced models such as Random Forest, XGBoost, and Gradient Boosting.
+
+---
+
+St. Vincent Pallotti College of Engineering & Technology, Nagpur
